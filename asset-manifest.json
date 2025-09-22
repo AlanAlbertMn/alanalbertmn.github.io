@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d14a3f8.css",
+    "main.js": "/static/js/main.215edb2a.js",
+    "static/js/453.73404086.chunk.js": "/static/js/453.73404086.chunk.js",
+    "static/media/spotifyScreenshot.png": "/static/media/spotifyScreenshot.22b0887f008e8c7c18aa.png",
+    "static/media/rawgscreenshot.png": "/static/media/rawgscreenshot.f3d9e057a2f70f1e278f.png",
+    "static/media/dcolorscreenshot.png": "/static/media/dcolorscreenshot.b1fbbf226ca508f69a81.png",
+    "static/media/Roboto-VariableFont_wdth,wght.ttf": "/static/media/Roboto-VariableFont_wdth,wght.3c9d0f6513f7cfe91016.ttf",
+    "static/media/alanPicture.jpeg": "/static/media/alanPicture.1665d2735f9a3b517ff4.jpeg",
+    "static/media/reactLogo.png": "/static/media/reactLogo.f153eb9f28437192c6a0.png",
+    "static/media/nodeLogo.png": "/static/media/nodeLogo.abfaef34ea49d0c7cd3c.png",
+    "static/media/mongoLogo.png": "/static/media/mongoLogo.25b856a4832c5618e62c.png",
+    "static/media/aws_Logo.png": "/static/media/aws_Logo.77be21eb55f00cd5fa12.png",
+    "static/media/python-logo.png": "/static/media/python-logo.632369df831d16241b59.png",
+    "static/media/LogoAASF.png": "/static/media/LogoAASF.04cb4043bfc28adeb16c.png",
+    "static/media/low-poly-grid2.svg": "/static/media/low-poly-grid2.c24b29e0f9a7d692cb472144c4faa7c8.svg",
+    "index.html": "/index.html",
+    "main.0d14a3f8.css.map": "/static/css/main.0d14a3f8.css.map",
+    "main.215edb2a.js.map": "/static/js/main.215edb2a.js.map",
+    "453.73404086.chunk.js.map": "/static/js/453.73404086.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d14a3f8.css",
+    "static/js/main.215edb2a.js"
+  ]
+}
