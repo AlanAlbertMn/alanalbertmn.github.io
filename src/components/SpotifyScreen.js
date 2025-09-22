@@ -16,7 +16,7 @@ export const SpotifyScreen = () => {
 			.get(url, {
 				headers: {
 					'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_KEY,
-                    'X-RapidAPI-Host': process.env.REACT_APP_RAPIDAPI_HOST,
+					'X-RapidAPI-Host': process.env.REACT_APP_RAPIDAPI_HOST,
 				},
 			})
 			.then(response => {
@@ -32,9 +32,9 @@ export const SpotifyScreen = () => {
 	return (
 		<form onSubmit={search}>
 			<div className='container'>
-				<div className='flex center' style={{gap: 15}}>
-				<FaSpotify size={80}/>
-				<h1 style={{fontSize: 60, fontWeight: 'bolder'}}>Spotify Service</h1>
+				<div className='flex center' style={{ gap: 15 }}>
+					<FaSpotify size={80} />
+					<h1 style={{ fontSize: 60, fontWeight: 'bolder' }}>Spotify Service</h1>
 				</div>
 				<div id='div-busqueda'>
 					<input
@@ -45,16 +45,20 @@ export const SpotifyScreen = () => {
 						autoComplete="off"
 					/>
 				</div>
-				<h1 style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bolder'}}>Albums</h1>
-				<div className='albums'>
-					{albums && albums.map(el => <Album data={el.data} />)}
-				</div>
-				<hr/>
-				<br/>
-				<h1 style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bolder' }}>Artists</h1>
-				<div className='albums'>
-					{artists && artists.map(el => <Artist data={el.data} />)}
-				</div>
+				{albums.length > 0 && (
+					<>
+						<h1 style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bolder' }}>Albums</h1>
+						<div className='albums'>
+							{albums && albums.map(el => <Album data={el.data} />)}
+						</div>
+						<hr />
+						<br />
+						<h1 style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bolder' }}>Artists</h1>
+						<div className='albums'>
+							{artists && artists.map(el => <Artist data={el.data} />)}
+						</div>
+					</>
+				)}
 			</div>
 		</form>
 	);

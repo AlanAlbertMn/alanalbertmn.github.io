@@ -81,7 +81,7 @@ export const Home = () => {
 						</p>
 						<div className='repoDivider'>
 							<a className='bold' target="_blank" href='https://github.com/AlanAlbertMn/spotify-app' rel="noreferrer">Repository</a>
-							<a className='bold' target="_blank" href='https://alanalbertmn.github.io/spotify-app/' rel="noreferrer">Live demo</a>
+							<a className='bold' href='spotify' rel="noreferrer">Live demo</a>
 						</div>
 					</div>
 					<div className='col'>
