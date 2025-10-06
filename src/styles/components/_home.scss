@@ -130,18 +130,22 @@
 }
 
 #spotifyDiv {
-	background-image: linear-gradient($primary, $secondary);
-	padding: 3rem 2rem 1.5rem;
+	// background-image: linear-gradient($primary, $secondary);
+	background-color: white;
+	color: $primary;
+	// padding: 3rem 2rem 1.5rem;
 }
 
 #videogameDiv {
-	background-color: $secondary;
-	padding: 1.5rem 2rem;
+	background-color: white;
+	color: $primary;
+	// padding: 1.5rem 2rem;
 }
 
 #dcolorDiv {
-	background-image: linear-gradient($secondary, $primary);
-	padding: 3rem 2rem;
+	background-color: white;
+	color: $primary;
+	// padding: 3rem 2rem;
 }
 
 #bio{

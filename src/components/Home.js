@@ -15,7 +15,7 @@ import { VscPreview } from "react-icons/vsc";
 
 import rawgScreenshot from '../assets/rawgscreenshot.png';
 import dcolorScreenshot from '../assets/dcolorscreenshot.png';
-import spotifyScreenshot from '../assets/spotifyScreenshot.png';
+import spotifyScreenshot from '../assets/spotifyss.png';
 
 import polygonSvg from '../assets/low-poly-grid2.svg';
 import { goToContact } from '../helpers/goToContact';
@@ -59,7 +59,7 @@ export const Home = () => {
 					<h1 className='subtitle bold'>PROJECTS</h1>
 				</div>
 					<p>
-						Feel free to give me a call to ask more about my expertise and abilities
+						Click on the "Live demo" buttons to see the projects working
 					</p>
 				</div>
 				<div className='box'>
