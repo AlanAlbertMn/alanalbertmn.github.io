@@ -1,1 +1,2 @@
-export const goToContact = () => document.getElementById('footer')?.scrollIntoView({behavior: 'smooth'})
+const goToContact = () => document.getElementById('footer')?.scrollIntoView({behavior: 'smooth'})
+export default goToContact;

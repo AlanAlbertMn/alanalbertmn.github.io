@@ -1,7 +1,7 @@
 .container {
 	align-items: center;
 	margin: 2em 1em;
-	min-height: 22rem;
+	min-height: 6in;
 	justify-content: center;
 }
 
@@ -12,9 +12,13 @@
 	gap: 20px;
 }
 
+.hoverable:hover {
+	transform: translateY(-5px);
+}
+
 .album-container {
-	text-align: center;
 	height: 25em;
+	text-align: center;
 	width: 100%;
 	& a img {
 		max-height: 300px;
@@ -25,7 +29,8 @@
 #div-busqueda {
 	display: flex;
 	justify-content: center;
-	margin: 2rem 0;
+	margin: 4rem auto;
+	width: 50%;
 }
 
 #busqueda {
@@ -33,5 +38,4 @@
 	font-size: xx-large;
 	margin: 0 auto;
 	text-align: center;
-	width: 65%;
 }

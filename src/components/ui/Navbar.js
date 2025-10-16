@@ -3,7 +3,7 @@ import { FaHome } from 'react-icons/fa';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 import whiteLogo from '../../assets/LogoAASF.png'
-import { goToContact } from '../../helpers/goToContact';
+import goToContact from '../../helpers/goToContact';
 
 export const Navbar = () => {
 	const [linksDisplay, setLinksDisplay] = useState(false);

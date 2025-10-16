@@ -18,7 +18,7 @@ import dcolorScreenshot from '../assets/dcolorscreenshot.png';
 import spotifyScreenshot from '../assets/spotifyss.png';
 
 import polygonSvg from '../assets/low-poly-grid2.svg';
-import { goToContact } from '../helpers/goToContact';
+import goToContact from '../helpers/goToContact';
 
 export const Home = () => {
 	return (
