@@ -1,10 +1,11 @@
-import React from 'react'
+import { ThemeToggle } from '../components/ThemeToggle'
 
 export const Home = () => {
     return (
-        <div className='bg-dark'>
+        <div className='min-h-screen'>
 
             {/*Theme Toogle*/}
+            <ThemeToggle />
 
             {/*Background Effects*/}
 
